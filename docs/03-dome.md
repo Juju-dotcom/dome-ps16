@@ -76,11 +76,9 @@ then middle (13, 15, 17, 19, 21), bottom (01, 05, 07, 10, 11) and the rim hubs 2
 If a joint stays open, loosen the two neighbouring hubs and check the lip is really inside
 the rabbet (usually a bit of brim or stringing).
 
-**Zenith adapter.** The 5 inserts at the top are tilted 19° toward the zenith, but the
-adapter's legs are straight, so the screws don't line up. There are two fixes:
-(A) reheat each insert, drive an M3 x 16 three turns into it and use the screw as a handle
-to tilt it until vertical, then hold 30 s; or (B) glue the adapter on with 5-minute epoxy.
-See the known issues in the main README.
+**Zenith adapter.** The 5 inserts at the top are tilted 19° toward the zenith, and the legs of
+the adapter are tilted the same way, so the screws go straight into the inserts. Fix it with
+5 x M3 x 16.
 
 ## 3.3 Light test
 

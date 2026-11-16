@@ -38,7 +38,6 @@ The DB37 is the only disconnect between the dome and the electronics.
    Only the metal D goes through, the flat flange rests behind the plate. The D is a trapezoid:
    the wide side goes with the wide side of the cut-out. If it doesn't go in, scrape the
    elephant-foot bulge and the corners of the cut-out with a cutter or a file, never force it.
-   See the known issue about these screws in the main README.
 4. Screw the plate under the board at (−261, 177) and (−277, 128) with 2 wood screws
    (9 mm blind pilot holes, a skirt screw is only 18 mm away).
 

@@ -71,9 +71,6 @@ The board listens on USB serial at 115200 baud, one command per line.
 ## Known issues
 
 - The LED distances from the calibration are less precise than the directions (17 mm median error, 79 mm max).
-- The 5 inserts around the zenith port are tilted 19° but the legs of the zenith adapter are straight, so the screws don't line up. The workaround is to reheat and straighten the inserts, or glue the adapter with epoxy (see [docs/03-dome.md](docs/03-dome.md)). The real fix is an adapter with tilted legs.
-- The DB37 that connects the dome to the enclosure is fixed with plain M3 screws, which leaves no room for the hood screws of the male plug. 4-40 jackposts would be better.
-- Refreshing the OLED blocks the Arduino for about 50 ms, so the screen is only updated between moves and during the short wait before each exposure.
 
 ## Author
 
