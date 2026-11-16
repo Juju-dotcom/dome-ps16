@@ -1,0 +1,53 @@
+category,qty,part,supplier_ref,notes
+Electronics,1,Arduino Mega 2560 R3,A000067,
+Electronics,1,TMC2209 stepper driver module,3D-TMC2209,
+Electronics,1,NEMA 17 stepper motor 1.7 A,JK42HS40-1704,
+Electronics,1,Pololu aluminium hub for 5 mm shaft (M3),1998-POLOLU,turntable to motor shaft
+Electronics,1,Optical fork end-stop (~33 x 10 mm),3D-E-005,turntable zero
+Electronics,16,Luxeon star LED,SW-01-T7,one per capsule
+Electronics,1,LM317T adjustable regulator (TO-220),LM317T,constant-current source for the LEDs
+Electronics,1,Resistor 3.9 ohm 2 W,R2W-3.9,sets ~320 mA (1.25 V / 3.9 ohm)
+Electronics,1,TO-220 heatsink + insulator,531102B02500 / TP0006,for the LM317
+Electronics,2,ULN2803A Darlington array,ULN2803A,low-side switch for 8 LEDs each
+Electronics,2,18-pin DIP socket,18LP,
+Electronics,1,Fuse 2 A slow-blow radial (soldered on board),FUSE-382-T2A,in series after the 12 V input
+Electronics,2,Electrolytic capacitor 100 uF 35 V,100R35,
+Electronics,1,Resistor 330 ohm 1/4 W,R1/4-330,in series with the WS2812 data line
+Electronics,1,Resistor 330 ohm 1/4 W,R1/4-330,camera trigger line (D5)
+Electronics,1,WS2812 status LED module,LED-BB-10,
+Electronics,1,UBEC 5 V 3 A buck converter,1385-ADA,powers the status LED only
+Electronics,1,OLED 1.3 in 64 x 128 (SH1107 / I2C),WAVE-18179,
+Electronics,3,Momentary 12 mm push button (green / yellow / red),PBS-DS427-M-GN / -Y / -RD,start / next / stop
+Electronics,1,Latching 16 mm switch with 12 V ring LED,PBS-LED-1624WH-L,main power
+Electronics,2,Solderable breadboard,SB830,LED board + motor board
+Electronics,1,DB37 female solder connector,DB37S,dome disconnect (enclosure side)
+Electronics,1,DB37 male solder connector + hood,DB37P / HOOD37,dome disconnect (harness side)
+Electronics,16,JST-PH 2.0 mm pair with 20 cm leads,CON-JST-PH-MF2,one per LED
+Electronics,1,Panel DC jack 2.1 mm,CON-DC-PJ-2.1,
+Electronics,1,Panel USB-B jack + 30 cm extension,4216-ADA,
+Electronics,1,12 V 3 A power supply (2.1 mm),DC-1203-2.1,
+Electronics,1,Nylon M3 standoff kit,S-M3-KITC,boards on the enclosure lid
+Electronics,~8,Screw terminals 5.08 mm (2/3/4 positions),TB-KF301,
+Electronics,1,Stranded wire 22 AWG + heat shrink,22HST-25-KIT / HTSHRINK160BK,
+Camera,1,LUCID Triton TRI050S-CC 5 MP colour camera,TRI050S-CC,
+Camera,1,Fujinon HF25XA-5M 25 mm lens,HF25XA-5M,
+Camera,1,M12 to RJ45 cable + M8 8-pin GPIO cable,LUCID,GPIO line 0 is the hardware trigger
+Camera,1,PoE injector 802.3af,,
+Hardware,159,Heat-set insert M3 x 5.7 (OD 4.6),,set at 230 C
+Hardware,163,Socket head screw M3 x 8,,camera: M3 x 8 only (3.2 mm of thread)
+Hardware,4,Socket head screw M3 x 10,,turntable to hub
+Hardware,11,Socket head screw M3 x 16,,zenith adapter (5) + camera tower (3) + top cap (3)
+Hardware,5,Socket head screw M3 x 20,,oblique adapter (3) + end-stop standoffs (2)
+Hardware,1,Screw M2 x 20 + M2 nut,,turntable flag for the end-stop
+Hardware,62,Wood screw #8 x 5/8 in pan head,,feet 12 / skirt 20 / towers 20 / motor plate 4 / enclosure 4 / DB37 plate 2; 3 mm blind pilot holes
+Hardware,6,Rubber feet pads,,
+Base,1,Black melamine board 5/8 in (15.9 mm),,cut with hardware/board/baseboard_outline.dxf
+Base,3.3 m,Black iron-on melamine edge banding,,
+Base,2.4 m,Black EPDM foam tape 25 x 3 mm,,light seal under the skirt
+Dome,0.6 m2,Black flocked adhesive paper,,lining inside the dome
+Filament,2.9 kg,ASA black,,dome panels + base + enclosure
+Filament,0.8 kg,PETG-CF black,,hubs + capsules + camera tower + feet
+Filament,0.4 kg,PLA,,calibration fixtures
+Calibration,1,PTFE plate 200 x 200 x 5 mm,,light calibration (distance / power / vignetting)
+Calibration,1,Chrome ball 2 in (50.8 mm) G25,,light directions
+Calibration,1,Glass checkerboard 100 x 100 mm,,camera intrinsics + pose
