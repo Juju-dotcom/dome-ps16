@@ -13,7 +13,7 @@ I designed and built it as a student project at Polytechnique Montréal (fall 20
 
 ## Interactive 3D build guide
 
-Open [`docs/build_guide/index.html`](docs/build_guide/index.html) in a browser (download the file, then double-click it). Every step shows the parts to add in 3D, with the instructions and the checks to do before moving on.
+**[Open the interactive build guide](https://juju-dotcom.github.io/dome-ps16/docs/build_guide/)**. Every step shows the parts to add in 3D, the breadboard plans and the full wiring schematic, with the instructions and the checks to do before moving on. It also works offline: download [`docs/build_guide/index.html`](docs/build_guide/index.html) and double-click it.
 
 The same steps are also written as Markdown in [`docs/`](docs/).
 
@@ -52,7 +52,7 @@ media/      photos and renders
 
 1. Print the parts listed in [hardware/README.md](hardware/README.md).
 2. Buy the parts in the [bill of materials](docs/bill_of_materials.md).
-3. Follow the [interactive build guide](docs/build_guide/index.html) or the Markdown guide in [docs/](docs/).
+3. Follow the [interactive build guide](https://juju-dotcom.github.io/dome-ps16/docs/build_guide/) or the Markdown guide in [docs/](docs/).
 4. Flash [firmware/dome_ps16](firmware/dome_ps16/) with the Arduino IDE (libraries: AccelStepper, Adafruit NeoPixel, U8g2).
 
 ## Firmware commands
