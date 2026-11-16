@@ -3,7 +3,7 @@
 **A low-cost LED dome for multi-view photometric stereo, built from scratch.**
 Put a real object in, get a precise, textured 3D digital twin out.
 
-![The finished dome](media/dome_built.jpg)
+
 
 The dome has 16 calibrated LEDs, a 5 MP industrial camera and a motorized turntable, all controlled by one Arduino Mega. One command on the computer scan the object under every light and from every turntable angle. The images are then fused in one textured mesh with a neural photometric stereo network (SDM-UniPS) and a neural signed distance surface (RNb-NeuS2).
 
