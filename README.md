@@ -89,7 +89,7 @@ The board listens on USB serial at 115200 baud, one command per line.
 ```bibtex
 @techreport{desrochers2026domeps16,
   author      = {Justin Desrochers},
-  title       = {{3D} Reconstruction by Multi-View Photometric Stereo with a Custom-Built {LED} Dome},
+  title       = "{3D} Reconstruction by Multi-View Photometric Stereo with a Custom-Built {LED} Dome",
   institution = {Polytechnique Montr{\'e}al},
   type        = {Technical report},
   month       = nov,
