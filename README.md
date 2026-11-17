@@ -5,7 +5,7 @@ Put a real object in, get a precise, textured 3D digital twin out.
 
 **[Read the technical paper (PDF)](paper/Dome_PS16_technical_paper.pdf)** · **[Open the interactive 3D build guide](https://juju-dotcom.github.io/dome-ps16/docs/build_guide/)**
 
-https://github.com/user-attachments/assets/faeeb75c-634a-4d0f-b253-b60e7ebadee2
+https://github.com/user-attachments/assets/494b2306-2f13-4a4d-8374-2b155fa25d78
 
 The dome has 16 calibrated LEDs, a 5 MP industrial camera and a motorized turntable, all controlled by one Arduino Mega. One command on the computer scans the object under every light and from every turntable angle. The images are then fused into one textured mesh with a neural photometric stereo network (SDM-UniPS) and a neural signed distance surface (RNb-NeuS2).
 
