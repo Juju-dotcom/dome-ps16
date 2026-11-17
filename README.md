@@ -3,11 +3,23 @@
 **A low-cost LED dome for multi-view photometric stereo, built from scratch.**
 Put a real object in, get a precise, textured 3D digital twin out.
 
+**[Read the technical paper (PDF)](paper/Dome_PS16_technical_paper.pdf)** · **[Open the interactive 3D build guide](https://juju-dotcom.github.io/dome-ps16/docs/build_guide/)**
 
-
-The dome has 16 calibrated LEDs, a 5 MP industrial camera and a motorized turntable, all controlled by one Arduino Mega. One command on the computer scan the object under every light and from every turntable angle. The images are then fused in one textured mesh with a neural photometric stereo network (SDM-UniPS) and a neural signed distance surface (RNb-NeuS2).
+The dome has 16 calibrated LEDs, a 5 MP industrial camera and a motorized turntable, all controlled by one Arduino Mega. One command on the computer scans the object under every light and from every turntable angle. The images are then fused into one textured mesh with a neural photometric stereo network (SDM-UniPS) and a neural signed distance surface (RNb-NeuS2).
 
 I designed and built it as a student project at Polytechnique Montréal (fall 2026).
+
+## Technical paper
+
+<a href="paper/Dome_PS16_technical_paper.pdf"><img src="media/paper_page1.png" width="300" align="right" alt="First page of the technical paper"></a>
+
+**[3D Reconstruction by Multi-View Photometric Stereo with a Custom-Built LED Dome](paper/Dome_PS16_technical_paper.pdf)**<br>
+Justin Desrochers, Polytechnique Montréal, November 2026<br>
+6 pages · [PDF](paper/Dome_PS16_technical_paper.pdf) · [LaTeX source](paper/main.tex)
+
+**Abstract.** In this project I built a low-cost LED dome for multi-view photometric stereo. I designed it, 3D printed it, wired it and assembled it myself from scratch. The dome has 16 calibrated LEDs, an industrial camera and a motorized turntable, and everything is controlled by one microcontroller. A full scan, under every light and for every angle of the turntable, is launched with a single command from the computer. To know where the camera is, I glued the object on a checkerboard, and then all the images are fused in one textured mesh with a neural photometric stereo network and a neural signed distance surface. On a chess knight of 40 mm, the final model matches the real dimensions to about 2% and it agrees with the input silhouettes with a median IoU of 0.971. The motivation is to reduce the domain gap between synthetic training data and real images, by capturing real objects instead of modelling them by hand.
+
+<br clear="right">
 
 ![Reconstructed knight](media/knight_render.jpg)
 
@@ -71,6 +83,19 @@ The board listens on USB serial at 115200 baud, one command per line.
 ## Known issues
 
 - The LED distances from the calibration are less precise than the directions (17 mm median error, 79 mm max).
+
+## Citation
+
+```bibtex
+@techreport{desrochers2026domeps16,
+  author      = {Justin Desrochers},
+  title       = {{3D} Reconstruction by Multi-View Photometric Stereo with a Custom-Built {LED} Dome},
+  institution = {Polytechnique Montr{\'e}al},
+  type        = {Technical report},
+  month       = nov,
+  year        = {2026}
+}
+```
 
 ## Author
 
