@@ -3,7 +3,7 @@
 **A low-cost LED dome for multi-view photometric stereo, built from scratch.**
 Put a real object in, get a precise, textured 3D digital twin out.
 
-**[Read the technical paper (PDF)](paper/Dome_PS16_technical_paper.pdf)** · **[Open the interactive 3D build guide](https://juju-dotcom.github.io/dome-ps16/docs/build_guide/)**
+**[Read the technical paper (PDF)](https://juju-dotcom.github.io/dome-ps16/paper/Dome_PS16_technical_paper.pdf)** · **[Open the interactive 3D build guide](https://juju-dotcom.github.io/dome-ps16/docs/build_guide/)**
 
 https://github.com/user-attachments/assets/494b2306-2f13-4a4d-8374-2b155fa25d78
 
@@ -13,11 +13,11 @@ I designed and built it as a student project at Polytechnique Montréal (fall 20
 
 ## Technical paper
 
-<a href="paper/Dome_PS16_technical_paper.pdf"><img src="media/paper_page1.png" width="300" align="right" alt="First page of the technical paper"></a>
+<a href="https://juju-dotcom.github.io/dome-ps16/paper/Dome_PS16_technical_paper.pdf"><img src="media/paper_page1.png" width="300" align="right" alt="First page of the technical paper"></a>
 
-**[3D Reconstruction by Multi-View Photometric Stereo with a Custom-Built LED Dome](paper/Dome_PS16_technical_paper.pdf)**<br>
+**[3D Reconstruction by Multi-View Photometric Stereo with a Custom-Built LED Dome](https://juju-dotcom.github.io/dome-ps16/paper/Dome_PS16_technical_paper.pdf)**<br>
 Justin Desrochers, Polytechnique Montréal, November 2026<br>
-6 pages · [PDF](paper/Dome_PS16_technical_paper.pdf) · [LaTeX source](paper/main.tex)
+6 pages · [PDF](https://juju-dotcom.github.io/dome-ps16/paper/Dome_PS16_technical_paper.pdf) · [LaTeX source](paper/main.tex)
 
 **Abstract.** In this project I built a low-cost LED dome for multi-view photometric stereo. I designed it, 3D printed it, wired it and assembled it myself from scratch. The dome has 16 calibrated LEDs, an industrial camera and a motorized turntable, and everything is controlled by one microcontroller. A full scan, under every light and for every angle of the turntable, is launched with a single command from the computer. To know where the camera is, I glued the object on a checkerboard, and then all the images are fused in one textured mesh with a neural photometric stereo network and a neural signed distance surface. On a chess knight of 40 mm, the final model matches the real dimensions to about 2% and it agrees with the input silhouettes with a median IoU of 0.971. The motivation is to reduce the domain gap between synthetic training data and real images, by capturing real objects instead of modelling them by hand.
 
@@ -50,7 +50,7 @@ The same steps are also written as Markdown in [`docs/`](docs/).
 | Reconstructed chess knight (40 mm) vs real size | +0.87 mm in height (about 2 %) |
 | Silhouette agreement (IoU) | 0.971 (median) |
 
-The full method, the calibration and the results are in the technical paper: [`paper/Dome_PS16_technical_paper.pdf`](paper/Dome_PS16_technical_paper.pdf).
+The full method, the calibration and the results are in the technical paper: [`paper/Dome_PS16_technical_paper.pdf`](https://juju-dotcom.github.io/dome-ps16/paper/Dome_PS16_technical_paper.pdf).
 
 ## Repository layout
 
